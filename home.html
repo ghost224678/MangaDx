@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - MANGADX</title>
+  <link rel="stylesheet" href="home.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- Navigation Bar -->
+    <nav>
+      <h1>MANGADX</h1>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="index.html">Account</a></li>
+        <li><a href="logout.html">Logout</a></li>
+      </ul>
+    </nav>
+
+    <!-- Search Bar -->
+    <form action="search.html" method="get" class="search-bar">
+      <input type="text" name="query" placeholder="Search for manga...">
+      <button type="submit"><i class='bx bx-search'></i></button>
+    </form>
+  
+    <!-- Hero Section -->
+    <section class="hero">
+      <h2>Welcome to MANGADX</h2>
+      <p>Discover, read, and enjoy thousands of manga and manhwa!</p>
+      <a href="explore.html" class="btn">Go To Homepage</a>
+    </section>
+    
+    <!-- Trending Manga Carousel -->
+    <section class="featured">
+      <h3>TRENDING MANGA</h3>
+      <div class="simple-slider">
+        <div class="slide active">
+          <img src="one.jpg" alt="Image 1">
+          <div class="caption">ONE PIECE</div>
+        </div>
+        <div class="slide">
+          <img src="beserk.jpg" alt="Image 2">
+          <div class="caption">BESERK</div>
+        </div>
+        <div class="slide">
+          <img src="dandadan.jpg" alt="Image 3">
+          <div class="caption">DANDADAN</div>
+        </div>
+        <div class="slide">
+          <img src="aot.jpg" alt="Image 3">
+          <div class="caption">ATTACK ON TITAN</div>
+        </div>
+        <div class="slide">
+          <img src="vagabond.jpg" alt="Image 3">
+          <div class="caption">VAGABOND</div>
+        </div>
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+      </div>
+    </section>
+
+    <!-- Popular Categories -->
+    <section class="categories">
+      <h3>POPULAR CATEGORIES</h3>
+      <div class="category-grid">
+        <a href="category.html" class="category-item">Action</a>
+        <a href="category.html" class="category-item">Romance</a>
+        <a href="category.html" class="category-item">Fantasy</a>
+        <a href="category.html" class="category-item">Comedy</a>
+        <a href="category.html" class="category-item">Isekai</a>
+      </div>
+    </section>
+
+    <section class="daily-quote">
+      <h3>DAILY MANGA QUOTE</h3>
+      <blockquote id="quote">
+        <!-- Placeholder for quote -->
+      </blockquote>
+    </section>
+    
+    <section class="reviews">
+      <h3>USER REVIEWS</h3>
+      <div class="review">
+        <p><strong>User123:</strong> "One Piece is a masterpiece!" <span>⭐⭐⭐⭐⭐</span></p>
+      </div>
+      <div class="review">
+        <p><strong>MangaFan456:</strong> "Berserk's story is dark but brilliant." <span>⭐⭐⭐⭐⭐</span></p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+      <h3>About MANGADX</h3>
+      <p>MANGADX is a platform for manga enthusiasts to explore and read thousands of titles, from popular classics to hidden gems!</p>
+      <pre>
+
+      </pre>
+      <h3>WHY MANGADX</h3>
+      <p>MANGADX is platform where you can read manga free of costwith out any problem,<br>
+      Most easy to find your favourite manga.</p>
+    </section>
+   
+    
+
+    
+    <footer>
+      <p>&copy; 2024 MANGADX</p>
+      <div class="social-icons">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+      </div>
+    </footer>
+
+    
+    <button id="theme-toggle" class="theme-btn"><i class='bx bx-moon'></i></button>
+  </div>
+
+<script src="jss.js"></script>
+
+
+</body>
+</html>

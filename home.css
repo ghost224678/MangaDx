@@ -1,0 +1,257 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body{
+    background: url(397352.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .container {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  nav h1 {
+    font-size: 24px;
+    color: #eedfdf;
+    border: #dbc4c4 2px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #dbc4c4;
+    font-weight: bold;
+  }
+  
+ 
+  .hero {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #040404;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  
+  .hero .btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  
+  .featured {
+    padding: 30px 0;
+  }
+  
+  .featured h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .featured-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    color: black;
+  }
+  
+  .featured-item {
+    width: 200px;
+    text-align: center;
+  }
+  
+  .simple-slider {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  
+  .slide {
+    display: none; /* Hide all slides by default */
+    position: relative;
+  }
+  
+  .slide.active {
+    display: block; /* Show the active slide */
+  }
+  
+  .slide img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .caption {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: calc(100% - 30px);
+    text-align: center;
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+  /* Search Bar */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.search-bar input[type="text"] {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.search-bar button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Categories Section */
+.categories {
+  text-align: center;
+  margin: 30px 0;
+}
+.category-grid {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.category-item {
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* About Section */
+.about {
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  margin-top: 30px;
+}
+
+/* Footer */
+footer {
+  padding: 10px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+.social-icons a {
+  margin: 0 10px;
+  color: #fff;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+.dark-mode .category-item, .dark-mode input[type="text"], .dark-mode footer {
+  background-color: #333;
+  color: #e0e0e0;
+}
+.theme-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007BFF;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+}
+.reviews {
+  text-align: center;
+  padding: 50px 0;
+  background: transparent;
+  backdrop-filter: blur(10px);
+}
+  
+
+.daily-quote{
+  text-align: center;
+  padding: 50px 0;
+  background: transparent;
+  backdrop-filter: blur(10px);
+}  
+  
